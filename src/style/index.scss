@@ -14,3 +14,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body,
+html {
+  background-image: url(https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4209623/910/607/m2/fpnw/wm1/h90fjmeyddzlwodqhzbdjgyjbsxgutxygbiuyhehceyooql2t7uvubde0itjozu0-.jpg?1522318937&s=22320ee033ce6c28ae3699404d78af0f);
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 70px;
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px black;
+  background-color: white;
+}
