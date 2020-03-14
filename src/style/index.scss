@@ -1,10 +1,24 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
+.body,
+html {
+  background-color: #0b7827;
+  background-size: 100%;
+}
+.container {
+  background-color: #0b7827;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
 .card {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   border: 1px solid black;
-  width: 250px;
-  height: 400px;
+  width: 350px;
+  height: 500px;
 }
 
 .suite {
@@ -13,9 +27,17 @@
 
 .number {
   font-size: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
-// #suite-top {
-//     width: 100%;
-//     height:
 
-// }
+#suite-top {
+  margin-top: 0px;
+  margin-left: 15px;
+}
+#suite-bottom {
+  position: absolute;
+  margin-right: 15px;
+  margin-top: 350px;
+  margin-left: 265px;
+}
