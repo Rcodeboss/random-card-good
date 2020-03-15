@@ -38,6 +38,7 @@ window.onload = function() {
         return "diamond";
     }
   };
+
   const suiteE1 = document.querySelectorAll(".suite");
   const numberE1 = document.querySelector(".number");
 
