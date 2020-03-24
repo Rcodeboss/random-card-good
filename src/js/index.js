@@ -35,7 +35,7 @@ window.onload = function() {
       case "♥":
         return "hearts";
       case "♦":
-        return "diamond";
+        return "diamonds";
     }
   };
 
@@ -51,4 +51,9 @@ window.onload = function() {
     e1.textContent = suiteValue;
   });
   numberE1.textContent = numberValue;
+
+  if (suiteValue == "hearts" || "diamonds") {
+    console.log("hearts" || "diamonds");
+  } else {
+  }
 };
